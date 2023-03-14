@@ -1,11 +1,12 @@
 package com.driver.services;
 
-import com.driver.models.*;
-import com.driver.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.driver.models.Blog;
+import com.driver.models.Image;
+import com.driver.repositories.BlogRepository;
+import com.driver.repositories.ImageRepository;
 
 @Service
 public class ImageService {
